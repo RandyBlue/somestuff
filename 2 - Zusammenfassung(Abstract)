@@ -1,0 +1,20 @@
+{
+	2 - Zusammenfassung
+	4 sentences (ok)
+}
+
+Durch den 1996 von Larry Page und Sergey Brin Entwickelten 
+PageRank Algorithmus ist es möglich, in einer Menge von 
+Webseiten, welche gegenseitig durch Hyperlinks auf einander 
+verweisen und so eine Netzstruktur bilden, die Relevanz der 
+einzelnen Webseiten auf Grundlage dieser Struktur zu 
+bestimmen.
+Eine Webseite kann als relevant oder wichtig Angesehen 
+werden, je mehr Webseiten, welche möglichst selbst als 
+wichtig angesehen werden, auf diese verweisen.
+Der Nutzen der Bewertung der einzelnen Webseiten liegt 
+darin, eine Rangfolge festzulegen, welche es ermöglicht 
+schnell auf die relevantesten Webseiten und somit 
+Informationen zuzugreifen. 
+Der PageRank Algorithmus ist der grundlegenden Ansatz von 
+Google Search.

@@ -1,0 +1,49 @@
+3.1 - Hintergrundwissen
+
+In diesem Karpitel beschreiben wir einige Vorgehensweisen, welche 
+eine Vorraussetzung für das Verständniss des PageRank Algorithmus 
+sind.
+
+-- 3.1 Das Internet als gerichteter Graph
+{
+- Es muss ein abstraktes Modell gegeben werden, welches das 
+World Wide Web begreifbarer und die Struktur modelliert welche
+durch Hyperlinks geschaffen wird. 
+(Abs. Das Internet als gerichteter Graph)
+}
+
+Im Kontext des PageRank Algorithmus existiert eine spezielle Sicht 
+auf die Struktur des World Wide Webs. Dieses Struktur stellt ein 
+starke Abstraktion da, in welcher das World Wide Web als ein 
+Gerichteter Graph gesehen wird.
+Ein gerichteter Graph besteht aus einer Menge von Knoten, welche 
+durch Kanten miteinander verbunden sind. Die einzelen Knoten dieses 
+Graphens representieren Webseiten, die Kanten hingegen stellen die
+Hyperlinks von einer Webseite zu einer anderen da. 
+Dadurch das Webseiten mehrere Hyperlinks beinhalten können und somit
+in der Lage sind aufeinender zu verweisen entwickelt sich eine 
+Netzstruktur.
+Verweist nun eine Webseite A, durch einen Hyperlink, auf eine andere 
+Webseite B so so stellt diese Kante bzw. dieser Hyperlink einen 
+sogenannten "outlink" für die Webseite A da. Für die Webseite B auf, 
+welche durch diesen Hyperlink verwisen wird representiert genau 
+dieser Hyperlink einen "inlink" da. Es gilt also, wenn man sich auf 
+einer Webseite befindent und einen Hyperlink anwählt und dieser von 
+dieser Webseite wegführt, so ist dies ein "outlink". Wenn man nun 
+diesem Link gefolgt ist und sich auf der Seite befindet, welche 
+durch diesen Link repräsentiert wurde, so stellt dieser Link einen 
+"inlink" für die Webseite da auf der man sich befindet.
+
+
+{
+	-- Gerichteter Graph
+	-- Hyperlinks sind die Kanten
+	-- In- und Outlinks beschreiben	
+}
+
+- Es muss eine Methode geschaffen werden, die es ermöglicht 
+eine möglichst große Menge von Webseiten zu erfassen. 
+(Abs. Crawling)
+
+- Die erfassten Webseiten, müssen nach verschiedenen 
+Themengebieten sortiert werden. (Abs. Indexing)

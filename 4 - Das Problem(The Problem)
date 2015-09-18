@@ -1,0 +1,72 @@
+{
+	1 page
+}
+- Das Problem des Erstellen einer Rangfolge
+
+
+- Das Internet als gerichteter Graph
+
+
+- Es muss ein abstraktes Modell gegeben werden, welches das 
+World Wide Web begreifbarer und die Struktur modelliert welche
+durch Hyperlinks geschaffen wird. 
+(Abs. Das Internet als gerichteter Graph)
+
+{
+	-- Gerichteter Graph
+	-- Hyperlinks sind die Kanten
+	-- In- und Outlinks beschreiben	
+}
+
+- Es muss eine Methode geschaffen werden, die es ermöglicht 
+eine möglichst große Menge von Webseiten zu erfassen. 
+(Abs. Crawling)
+
+- Die erfassten Webseiten, müssen nach verschiedenen 
+Themengebieten sortiert werden. (Abs. Indexing)
+
+- Es muss ein Lösungsverfahren gefunden werden, das es
+möglich macht die gesammelten Informationen zu bewerten, um 
+sie nach ihrer Popularität ordnen zu können. Das Verfahren
+welches dies realisiert wird als PageRank Algorithmus 
+bezeichnet (Abs. Lösung)
+
+{
+	-- Die Idee beschreiben, ist das wichtigste !
+	-- DIREKT
+	--- Beispiel von Problemen die gelöst werden sollen
+}
+
+
+- Das PageRank Lösungsverfahren muss so formuliert werden,
+dass Algorithmen das Ergebniss berechnen können. Dabei ist
+besonders zu beachten, dass die Datenmenge besonders groß ist.
+(Abs. Details)
+
+{
+	-- PageRank Summenformel
+	-- Warum am Anfang -> H Hyperlink Matrix Vektor
+	-- Eigenwert / Eigenmatix Problem Mathematische Beschreibung
+	-- Potenzmethode + Warum + Voraussetzungen + Beschreibung	
+}
+
+- Das Lösungsverfahren muss dahin gehend geprüft werden, ob es 
+zu brauchbaren Ergebnissen führt und mögliche Probleme 
+ausgeschlossen werden können. (Abs. Details)
+
+{
+	-- Probleme aufzeigen
+	-- Lösung Teleportations Matrix
+	--- Problem / Lösungsbeschreibung
+	--- Mathematik im detail
+	-- Lösung Random Surfer Anpassung
+	--- Problem / Lösungsbeschreibung
+	--- Mathematik im detail	
+}
+
+- Es muss verglichen werden ob, die Lösungsmöglichkeit in 
+gegensatz zu anderen Verfahren Vorteile oder Nachteile bieten.
+(Abs.Aenlichearbeiten)
+{
+	-- Vergleich HITS e.t.z	
+}

@@ -1,1 +1,11 @@
-5 - 
+-- Dokumente danach bewerten, wie viele und welche Webseiten auf sie 
+verweisen.
+-- Die Relevants eines Dokumentes bestimmen, in dem man sie danach
+bewertet, wie viele und welche Documente auf dieses eine verweisen.
+
+-- Die zentrale Idee hinter dem PageRank Algorithmus ist, dass man
+für jede Webseite einen numerischen Wert bestimmt, welcher die 
+Relevants einer Webseite wiederspiegelt, die Relevants wird daraus 
+abbeleitet, wie viele und welche anderen Webseiten auf die zu 
+bewertende Seite verweisen.
+(sec. 3)

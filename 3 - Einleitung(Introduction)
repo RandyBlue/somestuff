@@ -1,0 +1,92 @@
+{
+	1 - Das PROBLEM mit einem Beispiel beschreiben.
+	2 - Stichpunkte LISTE (*.h)
+	-- nicht die Idee beschreiben !	
+	1 Seite 
+}
+
+Das World Wide Web ist in der einfachsten Sichtweise ein
+Zusammenschluss von verschieden Webseiten zu einem Netzwerk.
+Einer der größten Vorteile des Internets ist die demokratisierung
+des Wissen. Aus der Tatsache herraus, dass jeder Mensch, welcher über 
+die Technologie verfühgt, eine Webseite erstellen kann und so sein Wissen 
+oder seine Interressen teilen kann, ist eine große Menge und vielefalt 
+von verschiedenesten Webseiten entstanden.
+Nehmen wir nun an, dass es Suchmaschinenen wie Google oder Bing nicht 
+geben würde, so wäre das World Wide Web ein Menge von Webseiten, die 
+gegenseitig, durch Links, aufeinander Verweisen. 
+Nun ist es sehr schwierig herauszufinden, welche Webseite populär und 
+damit relevant für ein Thema ist.
+Es gibt verschiedenste Ansätze die Menge von Webseiten, welche das 
+World Wide Web darstellen, zu erfassen, nach Themen zu ordnen und ein
+Rankfolge zu erstellen, durch welche die Popularität und somit die 
+Relevants zum Ausdruck gebracht wird.
+Wir gehen zu Lösung dieses Problems wie im folgendem beschrieben vor,
+dabei gehen wir besonders auf das Erstellen der Rankfolge durch das 
+Prinzip des PageRank Algorithmuses, dies stellt das Zentrale Problem,
+dieser Ausarbeitung da, ein.
+
+
+- Es muss ein abstraktes Modell gegeben werden, welches das 
+World Wide Web begreifbarer und die Struktur modelliert welche
+durch Hyperlinks geschaffen wird. 
+(Abs. Das Internet als gerichteter Graph)
+
+{
+	-- Gerichteter Graph
+	-- Hyperlinks sind die Kanten
+	-- In- und Outlinks beschreiben	
+}
+
+- Es muss eine Methode geschaffen werden, die es ermöglicht 
+eine möglichst große Menge von Webseiten zu erfassen. 
+(Abs. Crawling)
+
+- Die erfassten Webseiten, müssen nach verschiedenen 
+Themengebieten sortiert werden. (Abs. Indexing)
+
+- Es muss ein Lösungsverfahren gefunden werden, das es
+möglich macht die gesammelten Informationen zu bewerten, um 
+sie nach ihrer Popularität ordnen zu können. Das Verfahren
+welches dies realisiert wird als PageRank Algorithmus 
+bezeichnet (Abs. Lösung)
+
+{
+	-- Die Idee beschreiben, ist das wichtigste !
+	-- DIREKT
+	--- Beispiel von Problemen die gelöst werden sollen
+}
+
+
+- Das PageRank Lösungsverfahren muss so formuliert werden,
+dass Algorithmen das Ergebniss berechnen können. Dabei ist
+besonders zu beachten, dass die Datenmenge besonders groß ist.
+(Abs. Details)
+
+{
+	-- PageRank Summenformel
+	-- Warum am Anfang -> H Hyperlink Matrix Vektor
+	-- Eigenwert / Eigenmatix Problem Mathematische Beschreibung
+	-- Potenzmethode + Warum + Voraussetzungen + Beschreibung	
+}
+
+- Das Lösungsverfahren muss dahin gehend geprüft werden, ob es 
+zu brauchbaren Ergebnissen führt und mögliche Probleme 
+ausgeschlossen werden können. (Abs. Details)
+
+{
+	-- Probleme aufzeigen
+	-- Lösung Teleportations Matrix
+	--- Problem / Lösungsbeschreibung
+	--- Mathematik im detail
+	-- Lösung Random Surfer Anpassung
+	--- Problem / Lösungsbeschreibung
+	--- Mathematik im detail	
+}
+
+- Es muss verglichen werden ob, die Lösungsmöglichkeit in 
+gegensatz zu anderen Verfahren Vorteile oder Nachteile bieten.
+(Abs.Aenlichearbeiten)
+{
+	-- Vergleich HITS e.t.z	
+}
