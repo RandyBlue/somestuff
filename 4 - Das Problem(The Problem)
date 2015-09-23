@@ -3,70 +3,28 @@
 }
 - Das Problem des Erstellen einer Rangfolge
 
-
-- Das Internet als gerichteter Graph
-
-
-- Es muss ein abstraktes Modell gegeben werden, welches das 
-World Wide Web begreifbarer und die Struktur modelliert welche
-durch Hyperlinks geschaffen wird. 
-(Abs. Das Internet als gerichteter Graph)
-
-{
-	-- Gerichteter Graph
-	-- Hyperlinks sind die Kanten
-	-- In- und Outlinks beschreiben	
-}
-
-- Es muss eine Methode geschaffen werden, die es ermöglicht 
-eine möglichst große Menge von Webseiten zu erfassen. 
-(Abs. Crawling)
-
-- Die erfassten Webseiten, müssen nach verschiedenen 
-Themengebieten sortiert werden. (Abs. Indexing)
-
-- Es muss ein Lösungsverfahren gefunden werden, das es
-möglich macht die gesammelten Informationen zu bewerten, um 
-sie nach ihrer Popularität ordnen zu können. Das Verfahren
-welches dies realisiert wird als PageRank Algorithmus 
-bezeichnet (Abs. Lösung)
-
-{
-	-- Die Idee beschreiben, ist das wichtigste !
-	-- DIREKT
-	--- Beispiel von Problemen die gelöst werden sollen
-}
-
-
-- Das PageRank Lösungsverfahren muss so formuliert werden,
-dass Algorithmen das Ergebniss berechnen können. Dabei ist
-besonders zu beachten, dass die Datenmenge besonders groß ist.
-(Abs. Details)
-
-{
-	-- PageRank Summenformel
-	-- Warum am Anfang -> H Hyperlink Matrix Vektor
-	-- Eigenwert / Eigenmatix Problem Mathematische Beschreibung
-	-- Potenzmethode + Warum + Voraussetzungen + Beschreibung	
-}
-
-- Das Lösungsverfahren muss dahin gehend geprüft werden, ob es 
-zu brauchbaren Ergebnissen führt und mögliche Probleme 
-ausgeschlossen werden können. (Abs. Details)
-
-{
-	-- Probleme aufzeigen
-	-- Lösung Teleportations Matrix
-	--- Problem / Lösungsbeschreibung
-	--- Mathematik im detail
-	-- Lösung Random Surfer Anpassung
-	--- Problem / Lösungsbeschreibung
-	--- Mathematik im detail	
-}
-
-- Es muss verglichen werden ob, die Lösungsmöglichkeit in 
-gegensatz zu anderen Verfahren Vorteile oder Nachteile bieten.
-(Abs.Aenlichearbeiten)
-{
-	-- Vergleich HITS e.t.z	
-}
+Durch Crawling und Indexing erhält man eine Menge von Webseiten,
+diese Menge ist jedoch nicht geordnet. Die Ordnung hierbei bezieht
+sich jedoch nicht auf Themengebiete sondern darauf, dass das Suchen
+in dieser Menge sehr langwirig ist, da nicht bekannt ist, welche 
+Webseiten relevante und somit populäre Informationen enthält.
+Es wird also ein Weg gesucht, durch welchen die einzelnen Webseiten,
+so in eine Rangfolge gebracht werden, dass man eine Liste erhält. 
+In dieser Liste sollen die Links zu den Webseiten so angeordnet werden,
+sodass die, zu einem Thema relevantesten Seiten, am Anfang stehen und 
+dann in der relevants absteigenden Reihenfolge angeordnet sind.
+Um dies zu realisieren muss ein Mittel gefunden werden, die Webseiten
+einzeln zu bewerten.
+Es muss also jeder Webseite ein Wert zugeordnet werden, sodass diese
+in eine Rangfolge gebracht werden.
+Wenn ein Mensch diese Aufgabe übernehmen würde, dann ist die Zeit,
+welche für das Bewerten aufgebracht werden muss zu groß. Daher muss
+das bestimmen des Wertes, welcher die Relevants wiederspiegelt so 
+gewählt werden, dass ein Algorithmus und damit eine Computer dies
+übernehemen kann. Dieser Algorithmus muss so gewählt werden, dass er 
+in möglichst kurzer Zeit möglichst genau bestimmen kann welche 
+Webseiten als relevant anzusehen sind.
+Der nativste Ansatz wäre den Inhalt einer Webseite zu analysieren,
+jedoch aufgrund dessen, dass eine textbasierte Analyse, mit modernen 
+mitteln langwierig und fehler anfällig ist, sollte die Analyse auf ein 
+anderes Mittel oder eine andere Eigenschaft einer Webseite zugreifen.

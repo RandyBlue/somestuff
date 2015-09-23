@@ -1,11 +1,48 @@
--- Dokumente danach bewerten, wie viele und welche Webseiten auf sie 
-verweisen.
--- Die Relevants eines Dokumentes bestimmen, in dem man sie danach
-bewertet, wie viele und welche Documente auf dieses eine verweisen.
+{
+	-- Dokumente danach bewerten, wie viele und welche Webseiten auf sie 
+	verweisen.
+	-- Die Relevants eines Dokumentes bestimmen, in dem man sie danach
+	bewertet, wie viele und welche Documente auf dieses eine verweisen.
 
--- Die zentrale Idee hinter dem PageRank Algorithmus ist, dass man
-für jede Webseite einen numerischen Wert bestimmt, welcher die 
-Relevants einer Webseite wiederspiegelt, die Relevants wird daraus 
-abbeleitet, wie viele und welche anderen Webseiten auf die zu 
-bewertende Seite verweisen.
-(sec. 3)
+	-- Die Idee beschreiben, ist das wichtigste !
+	-- DIREKT
+	--- Beispiel von Problemen die gelöst werden sollen
+}
+
+-- Lösung durch die Verweise von Webseiten untereinander
+Eine Lösung dieses Problems stellt der PageRank Algorithmus da.
+In diesem Ansatz wird nicht der Inhalt in die Bewertung einbezogen, 
+sondern ein numerische Wert gesucht, der auf den inlinks und den 
+outlinks von einer Webseite beruht. Dieser berechenbare Wert wird
+als PageRank Wert bezeichnet und wird jeder Webseite individuell 
+zugeordnet.
+Es wird also dannach eine Bewertung durch geführt, wie viele und 
+welche Webseiten auf die eine verweisen für die die Bewertung 
+durchgeführt werden soll. 
+Dieser Ansatz spiegelt sich in der folgenden Summenformel wieder:
+
+	r(Pi) = sum Pj e Bpi r(Pj)/|Pj|
+
+Es gilt also, möchte man den PageRank von der Webseite Pi berechnen,
+so muss man die Summe, aus allen PageRank Werten Pj der Webseiten
+bilden, welche auf die Pi verweisen. Da die Seiten Pj auf mehrere
+Webseiten verweisen können, muss der PageRank von Pj auf die von Pj 
+verwiesenen Seiten aufgeteilt werden, daher wird r(Pj) durch die 
+Anzahl der outlinks |Pj| von Pj dividiert.
+Durch diese Berechnung wird ersichtlich, um einen möglichst hohen
+PageRank Wert zu erreichen, es nicht nur wichtig ist, möglichst 
+viele Verweise zu bekommen, sondern möglichst viele Verweise von 
+Webseiten welche selbst einen möglichst hohen PageRank wert inne 
+haben. Ein besonders hoher PageRank Wert hat den Vorteil, dass man
+in der Rankfolge möglicht an erster Stelle auftritt.
+
+
+-- Summenformel Ansatz
+-- Probleme: 
+	- nicht wieder spiegeln von Suchen
+	- Webseiten die keine outlinks haben
+	- rechenintensiv
+
+-- Übertragen zu der Form eines Eigenwert Problems
+- weiter Verweisen auf nächstes Karpitel
+
