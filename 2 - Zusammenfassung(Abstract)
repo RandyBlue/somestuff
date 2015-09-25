@@ -18,3 +18,10 @@ schnell auf die relevantesten Webseiten und somit
 Informationen zuzugreifen. 
 Der PageRank Algorithmus ist der grundlegenden Ansatz von 
 Google Search.
+
+-- Die zentrale Idee hinter dem PageRank Algorithmus ist, dass man
+für jede Webseite einen numerischen Wert bestimmt, welcher die 
+Relevants einer Webseite wiederspiegelt, die Relevants wird daraus 
+abbeleitet, wie viele und welche anderen Webseiten auf die zu 
+bewertende Seite verweisen.
+(sec. 3)
